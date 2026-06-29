@@ -40,6 +40,22 @@ header {
     font-weight: 700;
 }
 
+.contents p {
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contents p:hover {
+    background-color: #5865F2;
+}
+
+.login:hover {
+  background-color: #b1b1b1;
+}
+
+
 .login {
   color: #000000;
   background-color: white;
@@ -108,4 +124,17 @@ header {
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+}
+
+.ml:hover {
+  background-color: #b1b1b1;
+}
+
+.mr:hover {
+  background: linear-gradient(
+    to bottom,
+    #4403d1,
+    #3111ad,
+    #201e7e
+  );
 }
